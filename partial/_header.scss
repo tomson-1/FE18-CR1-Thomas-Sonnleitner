@@ -3,7 +3,7 @@ header img {
     height: 10px;
 }
 
-header {
+#headerm {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -20,4 +20,24 @@ header {
 
 h1 {
     font-family: 'Great Vibes', cursive;
+}
+
+#headerrm {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 3 1fr;
+    text-align: center;
+}
+
+#rmhome {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#rmimage {
+    height: 25em;
+    width: 50em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
