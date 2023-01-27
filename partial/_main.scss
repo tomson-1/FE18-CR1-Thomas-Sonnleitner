@@ -1,0 +1,22 @@
+.containerm {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    column-gap: 25px;
+    row-gap: 25px;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.containerm img {
+    width: 25em;
+    height: 25em;
+}
+
+.imagep {
+    background-color: grey;
+    text-align: center;
+    opacity: 60%;
+}

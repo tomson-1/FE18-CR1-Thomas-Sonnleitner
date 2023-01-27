@@ -1,0 +1,23 @@
+header img {
+    width: 10px;
+    height: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recipe a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+}

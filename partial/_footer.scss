@@ -1,0 +1,19 @@
+.footer {
+    display: grid;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    justify-content: baseline;
+}
+
+footer img {
+    width: 12em;
+    height: 9em;
+}
+
+.footer .links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
