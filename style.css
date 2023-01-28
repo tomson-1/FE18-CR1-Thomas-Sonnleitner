@@ -71,6 +71,18 @@ nav {
   font-style: normal;
 }
 
+.navitems {
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a :hover {
+  color: chartreuse;
+}
+
 .containerm {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
