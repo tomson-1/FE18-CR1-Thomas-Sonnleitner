@@ -65,7 +65,7 @@ nav {
        column-gap: 25px;
   row-gap: 25px;
   align-items: center;
-  margin-left: 2em;
+  margin-left: 1em;
   margin-top: 2em;
 }
 
@@ -75,9 +75,15 @@ nav {
 }
 
 .imagep {
-  background-color: grey;
+  position: relative;
+  background-color: black;
   text-align: center;
   opacity: 60%;
+  line-height: 2em;
+  top: -51px;
+  color: ghostwhite;
+  width: 25em;
+  font-style: oblique;
 }
 
 .brm {
@@ -107,6 +113,12 @@ footer img {
   margin-top: 1em;
 }
 
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+  .containerm {
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (max-width: 479px) {
   .containerm {
     grid-template-rows: repeat(9, 1fr);

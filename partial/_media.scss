@@ -1,3 +1,10 @@
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+    .containerm {
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media screen and (max-width: 479px) {
     .containerm {
         grid-template-rows: repeat(9, 1fr);

@@ -6,19 +6,26 @@
     column-gap: 25px;
     row-gap: 25px;
     align-items: center;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-top: 2em;
 }
 
 .containerm img {
+    // position: relative;
     width: 25em;
     height: 25em;
 }
 
 .imagep {
-    background-color: grey;
+    position: relative;
+    background-color: black;
     text-align: center;
     opacity: 60%;
+    line-height: 2em;
+    top: -51px;
+    color: ghostwhite;
+    width: 25em;
+    font-style: oblique;
 }
 
 .brm {
